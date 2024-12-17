@@ -1,0 +1,126 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  .app-container {
+    margin: 20px;
+  }
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  .movie-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .movie-card h3 {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .movie-card p {
+    font-size: 1em;
+    color: #777;
+  }
+  
+  .movie-card .buttons {
+    margin-top: 10px;
+  }
+  
+  .movie-card button {
+    background-color: #ff0505;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .movie-card button:hover {
+    background-color: #000000;
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  button[type="submit"] {
+    background-color: #0a0c0b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0b0c0b;
+  }
+  
+  button[type="button"] {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #e53935;
+  }
+  
+  input,
+  select {
+    font-size: 14px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
